@@ -1,0 +1,369 @@
+{
+  "theme": {
+    "default_mode": "light",
+    "theme_switch_strategy": "Light mode default for academic/school software and printable report card clarity; Dark mode supported for back-office dashboard",
+    "archetype": "ORGANIC_AND_EARTHY_ISLAMIC_ACADEMIC",
+    "rationale": "MA Nurul Qur'an Kebonagung is an Islamic Senior High School (Madrasah Aliyah). The visual identity combines distinguished Islamic academic heritage (Emerald Deep Forest Green, warm Sand/Parchment neutrals, Warm Amber/Ochre accents, Crisp White printable sheets) with crisp modern back-office ergonomics."
+  },
+  "typography": {
+    "font_family_heading": "Plus Jakarta Sans Variable, sans-serif",
+    "font_family_body": "DM Sans Variable, sans-serif",
+    "font_family_mono": "JetBrains Mono Variable, monospace",
+    "font_family_arabic_ornament": "serif",
+    "css_font_imports": [
+      "@import \"@fontsource-variable/plus-jakarta-sans\";",
+      "@import \"@fontsource-variable/dm-sans\";",
+      "@import \"@fontsource-variable/jetbrains-mono\";"
+    ],
+    "scale_px": {
+      "display": 48,
+      "h1": 36,
+      "h2": 28,
+      "h3": 22,
+      "h4": 18,
+      "body": 16,
+      "caption": 14
+    },
+    "typesetting_rules": {
+      "headings": "font-bold tracking-tight text-slate-900 dark:text-slate-100",
+      "subheadings": "font-medium text-slate-600 dark:text-slate-300",
+      "labels": "text-xs font-semibold uppercase tracking-wider text-emerald-800 dark:text-emerald-300",
+      "body_copy": "text-sm sm:text-base leading-relaxed text-slate-700 dark:text-slate-200",
+      "tabular_data": "font-mono text-sm tracking-tight text-slate-800 dark:text-slate-200"
+    }
+  },
+  "colors": {
+    "brand_identity": {
+      "school_name": "MA Nurul Qur'an Kebonagung",
+      "primary_emerald": "#065F46",
+      "primary_emerald_dark": "#064E3B",
+      "primary_emerald_light": "#10B981",
+      "gold_accent": "#D97706",
+      "gold_amber_light": "#FEF3C7"
+    },
+    "surfaces": [
+      {
+        "name": "page",
+        "kind": "solid",
+        "bg": "#F8FAFC",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#475569",
+        "roles": {
+          "link": "#047857",
+          "error": "#BE123C",
+          "success": "#047857",
+          "warning": "#B45309"
+        }
+      },
+      {
+        "name": "panel",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#0F172A",
+        "on_bg_muted": "#64748B",
+        "roles": {
+          "link": "#047857",
+          "error": "#BE123C",
+          "success": "#047857",
+          "warning": "#B45309"
+        }
+      },
+      {
+        "name": "dark_page",
+        "kind": "solid",
+        "bg": "#0B131E",
+        "on_bg": "#F8FAFC",
+        "on_bg_muted": "#94A3B8",
+        "roles": {
+          "link": "#34D399",
+          "error": "#FB7185",
+          "success": "#34D399",
+          "warning": "#FBBF24"
+        }
+      },
+      {
+        "name": "dark_panel",
+        "kind": "solid",
+        "bg": "#131F2E",
+        "on_bg": "#F8FAFC",
+        "on_bg_muted": "#94A3B8",
+        "roles": {
+          "link": "#34D399",
+          "error": "#FB7185",
+          "success": "#34D399",
+          "warning": "#FBBF24"
+        }
+      },
+      {
+        "name": "sidebar_brand",
+        "kind": "solid",
+        "bg": "#064E3B",
+        "on_bg": "#FFFFFF",
+        "on_bg_muted": "#A7F3D0",
+        "roles": {
+          "link": "#FDE68A",
+          "error": "#FECDD3",
+          "success": "#6EE7B7",
+          "warning": "#FDE68A"
+        }
+      },
+      {
+        "name": "rapor_paper",
+        "kind": "solid",
+        "bg": "#FFFFFF",
+        "on_bg": "#111827",
+        "on_bg_muted": "#374151",
+        "roles": {
+          "link": "#065F46",
+          "error": "#991B1B",
+          "success": "#065F46",
+          "warning": "#92400E"
+        }
+      },
+      {
+        "name": "badge_ganjil",
+        "kind": "solid",
+        "bg": "#ECFDF5",
+        "on_bg": "#065F46",
+        "on_bg_muted": "#047857"
+      },
+      {
+        "name": "badge_genap",
+        "kind": "solid",
+        "bg": "#FEF3C7",
+        "on_bg": "#92400E",
+        "on_bg_muted": "#78350F"
+      },
+      {
+        "name": "badge_role_admin",
+        "kind": "solid",
+        "bg": "#EDE9FE",
+        "on_bg": "#5B21B6",
+        "on_bg_muted": "#4C1D95"
+      },
+      {
+        "name": "badge_role_wali",
+        "kind": "solid",
+        "bg": "#E0E7FF",
+        "on_bg": "#3730A3",
+        "on_bg_muted": "#312E81"
+      },
+      {
+        "name": "badge_role_guru",
+        "kind": "solid",
+        "bg": "#E0F2FE",
+        "on_bg": "#0369A1",
+        "on_bg_muted": "#075985"
+      }
+    ],
+    "accent": "#047857",
+    "on_accent": "#FFFFFF",
+    "accent_hover": "#065F46"
+  },
+  "entry_surfaces": {
+    "/": "branded split portal — left emerald academic hero banner & Islamic identity statement, right login card with role switcher indicator and quick demo presets",
+    "/login": "branded split portal — left emerald academic hero banner & Islamic identity statement, right login card with role switcher indicator and quick demo presets"
+  },
+  "layouts_and_navigation": {
+    "header": {
+      "strategy": "Crystal glass top bar with backdrop-blur-md bg-white/80 dark:bg-slate-900/80 border-b border-slate-200 dark:border-slate-800",
+      "elements": [
+        "School Logo & Name badge: MA Nurul Qur'an Kebonagung",
+        "Active Academic Year & Semester Pill (e.g. 'TP 2025/2026 - Semester Ganjil')",
+        "User Role Badge: 'Waka Kurikulum / Admin' or 'Guru Mapel' or 'Wali Kelas (X-IPA 1)'",
+        "Quick Switcher / Reset Demo Session Button",
+        "Theme Toggle (Light/Dark)",
+        "User Profile Dropdown with Logout button"
+      ]
+    },
+    "sidebar": {
+      "strategy": "Collapsible rich emerald/slate sidebar with role-aware menu visibility and clean icons",
+      "navigation_groups": [
+        {
+          "group_name": "UTAMA",
+          "allowed_roles": ["admin", "guru", "wali_kelas"],
+          "items": [
+            { "label": "Dashboard", "icon": "LayoutDashboard", "path": "/dashboard", "test_id": "nav-dashboard" }
+          ]
+        },
+        {
+          "group_name": "WAKA KURIKULUM (ADMIN)",
+          "allowed_roles": ["admin"],
+          "items": [
+            { "label": "Tahun & Semester", "icon": "CalendarDays", "path": "/admin/academic-year", "test_id": "nav-academic-year" },
+            { "label": "Manajemen Guru", "icon": "UserCheck", "path": "/admin/teachers", "test_id": "nav-teachers" },
+            { "label": "Manajemen Siswa", "icon": "GraduationCap", "path": "/admin/students", "test_id": "nav-students" },
+            { "label": "Mata Pelajaran", "icon": "BookOpen", "path": "/admin/subjects", "test_id": "nav-subjects" },
+            { "label": "Kelas & Wali Kelas", "icon": "Building2", "path": "/admin/classes", "test_id": "nav-classes" },
+            { "label": "Penugasan Mengajar", "icon": "Briefcase", "path": "/admin/assignments", "test_id": "nav-assignments" },
+            { "label": "Kenaikan Kelas & Alumni", "icon": "ArrowUpCircle", "path": "/admin/promotion", "test_id": "nav-promotion" },
+            { "label": "Pengaturan Kop & TTD", "icon": "Settings2", "path": "/admin/settings", "test_id": "nav-settings" }
+          ]
+        },
+        {
+          "group_name": "GURU MATA PELAJARAN",
+          "allowed_roles": ["guru", "wali_kelas", "admin"],
+          "items": [
+            { "label": "Input Nilai Siswa", "icon": "FileSpreadsheet", "path": "/guru/grades", "test_id": "nav-grades" }
+          ]
+        },
+        {
+          "group_name": "WALI KELAS",
+          "allowed_roles": ["wali_kelas", "admin"],
+          "conditional_rule": "HANYA MUNCUL jika guru terdaftar sebagai Wali Kelas pada kelas aktif",
+          "items": [
+            { "label": "Absensi & Ekstrakurikuler", "icon": "ClipboardList", "path": "/wali/homeroom", "test_id": "nav-homeroom" },
+            { "label": "Catatan & Keputusan", "icon": "FileText", "path": "/wali/notes", "test_id": "nav-wali-notes" },
+            { "label": "Cetak Rapor Siswa", "icon": "Printer", "path": "/wali/print-rapor", "test_id": "nav-print-rapor" }
+          ]
+        }
+      ]
+    },
+    "grid_systems": {
+      "dashboard_kpi_grid": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6",
+      "grade_matrix_grid": "border border-slate-200 dark:border-slate-800 rounded-xl overflow-hidden shadow-sm bg-white dark:bg-slate-900",
+      "rapor_print_grid": "w-[210mm] min-h-[297mm] p-[18mm] mx-auto bg-white text-black shadow-2xl print:shadow-none print:m-0 print:w-full print:p-0"
+    }
+  },
+  "rapor_print_specification": {
+    "page_format": "A4 Portrait (210mm x 297mm)",
+    "paper_color": "#FFFFFF",
+    "text_color": "#000000",
+    "border_rules": "1px solid #1E293B",
+    "watermark": {
+      "text": "MA NURUL QUR'AN KEBONAGUNG",
+      "style": "absolute inset-0 flex items-center justify-center pointer-events-none opacity-[0.06] select-none text-5xl font-black rotate-[-25deg] tracking-widest text-emerald-950 font-serif"
+    },
+    "kop_surat": {
+      "header_title": "YAYASAN PONDOK PESANTREN NURUL QUR'AN",
+      "sub_title": "MADRASAH ALIYAH NURUL QUR'AN KEBONAGUNG",
+      "nsm_npsn": "NSM: 131235170021 / NPSN: 69981234 | Akreditasi A",
+      "address": "Jl. Pesantren No. 01 Kebonagung, Kec. Kebonagung, Kabupaten Pacitan, Jawa Timur",
+      "contact": "Email: manurulquran.kbg@gmail.com | Website: manurulqurankebonagung.sch.id",
+      "divider": "border-b-[3px] border-double border-black mt-2 mb-4"
+    },
+    "student_meta_header_grid": "grid grid-cols-2 text-xs sm:text-sm mb-4 leading-relaxed",
+    "grade_table_columns": [
+      { "header": "No", "width": "5%", "align": "center" },
+      { "header": "Mata Pelajaran", "width": "35%", "align": "left" },
+      { "header": "KKM", "width": "8%", "align": "center" },
+      { "header": "Nilai Tengah Semester (NTS)", "width": "16%", "align": "center" },
+      { "header": "Nilai Akhir Semester (NAS)", "width": "16%", "align": "center" },
+      { "header": "Nilai Akhir / Predikat", "width": "20%", "align": "center" }
+    ],
+    "homeroom_sections": [
+      "Tabel Kehadiran / Absensi (Sakit: S, Izin: I, Tanpa Keterangan: A)",
+      "Tabel Kegiatan Ekstrakurikuler (Nama Ekskul, Predikat A/B/C/D, Keterangan)",
+      "Catatan Wali Kelas (Motivasi dan evaluasi kepribadian peserta didik)",
+      "Keputusan Akhir Semester (Khusus Genap: Naik ke Kelas XI/XII / Tinggal di Kelas / Lulus)"
+    ],
+    "signature_blocks": {
+      "layout": "grid grid-cols-3 gap-4 text-center mt-8 text-xs sm:text-sm",
+      "columns": [
+        {
+          "role_title": "Mengetahui,\nOrang Tua / Wali Murid",
+          "signature_space": "h-20 flex items-end justify-center",
+          "signer_name": "( ........................................ )"
+        },
+        {
+          "role_title": "Kebonagung, [Tgl Cetak]\nWali Kelas,",
+          "signature_space": "h-20 flex items-end justify-center font-semibold underline",
+          "signer_name": "[Nama Wali Kelas, S.Pd]",
+          "nip": "NIP. 198204152010011002"
+        },
+        {
+          "role_title": "Mengetahui,\nKepala MA Nurul Qur'an,",
+          "signature_space": "h-20 flex items-end justify-center font-semibold underline",
+          "signer_name": "[Nama Kepala Madrasah, M.Pd.I]",
+          "nip": "NIP. 197508202005011004"
+        }
+      ]
+    },
+    "print_css_rules": "@media print { body { background: white !important; } .no-print { display: none !important; } .print-page { box-shadow: none !important; margin: 0 !important; width: 100% !important; padding: 0 !important; } @page { size: A4 portrait; margin: 15mm 15mm 15mm 15mm; } }"
+  },
+  "interactive_components": {
+    "grade_entry_matrix": {
+      "description": "Fast excel-like batch grade editor with Tab/Enter keyboard navigation, inline validation (0-100), automated letter grade calculation (A: 90-100, B: 80-89, C: 70-79, D: <70), and auto-save indicator",
+      "features": [
+        "Pilih Mapel & Kelas dropdown selector",
+        "Quick Fill / Import Sample Data button",
+        "Calculated columns: Rata-rata, Predikat, Status KKM (Tuntas / Belum Tuntas)",
+        "Batch export to Excel / Print preview",
+        "Instant Save button with Sonner notification"
+      ]
+    },
+    "promotion_wizard": {
+      "description": "Multi-step promotion system for Waka Kurikulum to safely promote classes 10->11, 11->12, and 12->Lulus/Alumni",
+      "features": [
+        "Preview per-student eligibility badge (Lolos / Bersyarat / Tinggal Kelas)",
+        "Mass Select checkbox with 'Naikkan Semua yang Tuntas' action",
+        "Direct archiving of Grade 12 to Alumni Register with graduation year & destination tracking",
+        "Rollback / Audit log protection against accidental promotion"
+      ]
+    },
+    "password_manager_modal": {
+      "description": "Teacher & Student credential manager allowing Admin to view plain/hashed passwords, generate secure PINs, and trigger instant password reset with copy-to-clipboard",
+      "test_ids": {
+        "modal": "admin-password-modal",
+        "reset_btn": "admin-reset-password-btn",
+        "copy_btn": "admin-copy-credentials-btn"
+      }
+    }
+  },
+  "motion_and_micro_interactions": {
+    "page_transitions": "initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.2, ease: 'easeOut' }}",
+    "card_hover": "hover:shadow-md hover:border-emerald-300 dark:hover:border-emerald-700 transition-all duration-150",
+    "table_row_hover": "hover:bg-emerald-50/50 dark:hover:bg-emerald-950/20 transition-colors duration-100",
+    "reduced_motion": "Respect 'prefers-reduced-motion: reduce' by defaulting transitions to instant opacity toggles"
+  },
+  "accessibility_and_compliance": {
+    "color_contrast": "All text and interactive icons exceed 4.5:1 APCA/WCAG AA contrast against their respective parent surface backgrounds",
+    "keyboard_nav": "Full arrow and tab navigation on grade input table rows and modal dialogs",
+    "focus_rings": "focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2 outline-none",
+    "screen_reader": "Aria labels provided for icon-only action buttons (edit, delete, reset password, print)"
+  },
+  "component_structure_map": {
+    "App": "frontend/src/App.tsx",
+    "MainLayout": "frontend/src/components/layout/MainLayout.tsx",
+    "Sidebar": "frontend/src/components/layout/Sidebar.tsx",
+    "Header": "frontend/src/components/layout/Header.tsx",
+    "LoginPage": "frontend/src/pages/Login.tsx",
+    "DashboardPage": "frontend/src/pages/Dashboard.tsx",
+    "AcademicYearPage": "frontend/src/pages/admin/AcademicYear.tsx",
+    "TeachersPage": "frontend/src/pages/admin/Teachers.tsx",
+    "StudentsPage": "frontend/src/pages/admin/Students.tsx",
+    "SubjectsPage": "frontend/src/pages/admin/Subjects.tsx",
+    "ClassesPage": "frontend/src/pages/admin/Classes.tsx",
+    "AssignmentsPage": "frontend/src/pages/admin/Assignments.tsx",
+    "PromotionPage": "frontend/src/pages/admin/Promotion.tsx",
+    "SchoolSettingsPage": "frontend/src/pages/admin/SchoolSettings.tsx",
+    "GradeEntryPage": "frontend/src/pages/guru/GradeEntry.tsx",
+    "HomeroomDataPage": "frontend/src/pages/wali/HomeroomData.tsx",
+    "PrintRaporPage": "frontend/src/pages/wali/PrintRapor.tsx",
+    "RaporSheetComponent": "frontend/src/components/rapor/RaporSheet.tsx"
+  },
+  "test_id_conventions": {
+    "login_username_input": "login-username-input",
+    "login_password_input": "login-password-input",
+    "login_submit_button": "login-submit-button",
+    "role_preset_admin_button": "role-preset-admin-btn",
+    "role_preset_guru_button": "role-preset-guru-btn",
+    "role_preset_wali_button": "role-preset-wali-btn",
+    "grade_nts_input_prefix": "grade-nts-input-",
+    "grade_nas_input_prefix": "grade-nas-input-",
+    "save_grades_button": "save-grades-btn",
+    "print_single_rapor_button": "print-single-rapor-btn",
+    "print_all_rapor_button": "print-all-rapor-btn",
+    "promote_students_button": "promote-students-btn",
+    "reset_teacher_password_button": "reset-teacher-password-btn"
+  },
+  "instructions_to_main_agent": [
+    "Language is strictly Bahasa Indonesia across all UI labels, table headers, toasts, and printable reports.",
+    "Implement clear role-based switching: Admin (Waka Kurikulum), Guru Mapel (Subject Teacher), and Wali Kelas (Homeroom Teacher). When logged in as a teacher who is also assigned as Wali Kelas, ensure the 'Wali Kelas' menu section is visible; if not assigned as Wali Kelas, hide that menu section.",
+    "Include a prominent quick-demo switch bar or quick-login buttons on the login page for: 1. Waka Kurikulum (Admin), 2. Guru Mapel (Drs. Ahmad Fauzi - Fisika), 3. Wali Kelas (Siti Nurhaliza, S.Pd - Wali Kelas X-IPA 1).",
+    "Seed rich and realistic Indonesian Islamic Madrasah data: Subjects (PAI: Al-Qur'an Hadits, Aqidah Akhlak, Fiqih, SKI, Bahasa Arab; Umum: Matematika, Bahasa Indonesia, Bahasa Inggris, Fisika, Biologi, Kimia, Ekonomi, Geografi, dll).",
+    "Ensure the printable report card (Rapor) follows the exact user requirement: clean white sheet with subtle watermark of 'MA Nurul Qur'an Kebonagung', school letterhead (Kop Surat Yayasan PP Nurul Qur'an), student metadata, grade matrix with NTS, NAS, Predikat, KKM, Attendance (S/I/A), Extracurriculars, Wali Kelas notes, Promotion statement (Naik/Tinggal/Lulus), and 3 signature blocks (Kepala Madrasah, Wali Kelas, Orang Tua).",
+    "Include standard `@base-ui/react` and `lucide-react` components from template. Add `react-to-print` or clean `@media print` CSS utility for 1-click seamless browser printing.",
+    "Always place `data-testid` on all key interactive elements as specified in test_id_conventions."
+  ]
+}
